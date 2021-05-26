@@ -64,7 +64,7 @@
 .peopleColumn-29fq28, .separator-XqIyoz, .inset-3sAvek, .body-3iLsc4, .footer-1fjuF6, .root-1gCeng, .uploadModal-2ifh8j {
     background-color: var(--background-primary) !important;
 }
-.itemCard-v9viV7:hover, .menu-3sdvDG, .headerNormal-T_seeN, .footer-2gL1pp, .footer-3mqk7D {
+.itemCard-v9viV7:hover, .menu-3sdvDG, .headerNormal-T_seeN, .footer-2gL1pp, .footer-3mqk7D, .header-2C89wJ, .tileChild-31WXi8, .root-217Brm {
     background-color: var(--background-tertiary) !important;
 }
 .blockquoteDivider-2hH8H6 {
@@ -87,6 +87,9 @@
 }
 .bd-sidebar-header > .header-2RyJ0Y, .bd-addon-card[id="Alpha's Theme-card"] > .bd-addon-header > .bd-title {
     color: #99f;
+}
+.container-2x5lvQ > section {
+    background-color: var(--background-primary) !important;
 }
 
 .wordmarkWindows-1v0lYD {
@@ -134,4 +137,7 @@
 }
 .container-6sXIoE, .container-3baos1, .activityPanel-28dQGo {
     border: none;
+}
+.gradientTop-3UWg3T, .gradientBottom-3X4SdK {
+    opacity: 0;
 }
