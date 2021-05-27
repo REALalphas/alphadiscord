@@ -61,10 +61,10 @@
     --deprecated-text-input-prefix: #dcddde !important;
 }
 /* force */
-.peopleColumn-29fq28, .separator-XqIyoz, .inset-3sAvek, .body-3iLsc4, .footer-1fjuF6, .root-1gCeng, .uploadModal-2ifh8j {
+.peopleColumn-29fq28, .separator-XqIyoz, .inset-3sAvek, .footer-1fjuF6, .root-1gCeng, .uploadModal-2ifh8j {
     background-color: var(--background-primary) !important;
 }
-.itemCard-v9viV7:hover, .menu-3sdvDG, .headerNormal-T_seeN, .footer-2gL1pp, .footer-3mqk7D, .header-2C89wJ, .tileChild-31WXi8, .root-217Brm {
+.itemCard-v9viV7:hover, .menu-3sdvDG, .headerNormal-T_seeN, .footer-2gL1pp, .footer-3mqk7D, .header-2C89wJ, .tileChild-31WXi8, .root-217Brm, .body-3iLsc4 {
     background-color: var(--background-tertiary) !important;
 }
 .blockquoteDivider-2hH8H6 {
