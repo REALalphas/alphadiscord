@@ -1,0 +1,6 @@
+/*//META{"name": "Alpha's Theme", "description": "Лучшая тема в Discord. Теперь сама обновляется!", "author": "AlphaS", "version": "2+"}*//**/
+@import url("https://realalphas.github.io/alphadiscord/main.css");
+
+:root {
+    --resize: 1; /* resize lists on hover? 1 = enable; 0 = disable */
+}
