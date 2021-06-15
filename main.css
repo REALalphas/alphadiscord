@@ -102,7 +102,7 @@
     width: 240px;
     transition: width .5s ease 1s;
 }
-.membersWrap-2h-GB4:hover, .membersWrap-2h-GB4:hover > .members-1998pB, .sidebar-2K8pFh:hover {
+.membersWrap-2h-GB4:hover, .membersWrap-2h-GB4:hover > .members-1998pB, .sidebar-2K8pFh:hover, .sidebar-2K8pFh:hover > .container-3w7J-x > .container-1taM1r > .animatedContainer-1NSq4T > .bannerImage-3KhIJ6 {
     width: calc(240px + var(--resize) * 60px);
     transition: width .2s ease .1s;
 }
