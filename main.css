@@ -148,3 +148,59 @@
     background-color: var(--background-primary) !important;
     border-radius: 16px;
 }
+
+.avatarContainer-28iYmV {
+    transition: margin-right 0.33s 0.1s var(--slick), transform 0.33s 0.1s var(--slick), border-radius 0.33s 0.1s var(--slick), z-index 0s 0.1s linear;
+}
+.avatarContainer-28iYmV:hover {
+    margin-right: 14px;
+    transform: scale(1.55);
+    border-radius: 4px;
+    z-index: 10;
+    transition: margin-right 0.2s var(--slick), transform 0.2s var(--slick), border-radius 0.2s var(--slick), z-index 0s linear;
+}
+
+.draggable-2E_4tJ {
+    transition: margin-bottom 0.2s var(--slick);
+}
+.content-1Wq3SX {
+    transition: padding 0.2s var(--slick);
+}
+.draggable-2E_4tJ:hover {
+    margin-bottom: 8px;
+}
+.draggable-2E_4tJ:hover > .userSmall-YJ5L9_ > .content-1Wq3SX {
+    padding: 4px 0;
+}
+
+.avatarWrapperNormal-26WQIb {
+    transition: top 0.3s var(--slick);
+}
+.banner-2QYc2d {
+    transition: height 0.3s var(--slick);
+}
+.userPopout-xaxa6l:not(:hover) > .avatarWrapperNormal-26WQIb {
+    top: -32px;
+    transition: top 0.4s 0.3s var(--slick);
+}
+.userPopout-xaxa6l:not(:hover) > .headerNormal-3KXFBt > .banner-2QYc2d {
+    height: 0px;
+    transition: height 0.4s 0.3s var(--slick);
+}
+
+header > .banner-2QYc2d {
+    transition: height 0.66s var(--slick);
+}
+header > .banner-2QYc2d:not(:hover) {
+    height: 84px;
+    transition: height 0.33s 0.2s var(--slick);
+}
+
+.bodyTitle-1ySSKn, .headerTextNormal-2mGWX3, .setIdentityLink-1t8Ahd {
+    display: none;
+    margin: 0;
+}
+.rolesList-1geHY1 {
+    margin-bottom: 6px;
+}
+
