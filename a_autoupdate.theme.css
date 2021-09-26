@@ -2,5 +2,8 @@
 @import url("https://realalphas.github.io/alphadiscord/main.css");
 
 :root {
-    --resize: 1; /* resize lists on hover? 1 = enable; 0 = disable */
+    --slick: cubic-bezier(.1,.6,.01,1); /* Animation */
+    --base-width: 240px; /* Base sidebars width */
+    --rsiz-width: 60px; /* Resize + Base = width */
+    --resize: 1; /* Resize lists on hover? 1 = enable; 0 = disable */
 }
