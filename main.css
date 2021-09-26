@@ -97,7 +97,7 @@
 .bd-sidebar-header > .header-2RyJ0Y, .bd-addon-card[id="Alpha's Theme-card"] > .bd-addon-header > .bd-title {
     color: #99f;
 }
-.bd-sidebar-header > .header-2RyJ0Y, .bd-addon-card[id="Alpha's Theme / Dev-card"] > .bd-addon-header > .bd-title {
+.bd-addon-card[id="Alpha's Theme / Dev-card"] > .bd-addon-header > .bd-title {
     color: #5757ff;
 }
 .container-2x5lvQ > section {
@@ -255,6 +255,9 @@ header > .banner-2QYc2d:not(:hover) {
 }
 
 /* Voice Chat */
+.container-1giJp5 {
+    border: none;
+}
 .container-1giJp5>.flex-1xMQg5.flex-1O1GKY {
     transition: height 0.3s var(--slick), margin-top 0.3s var(--slick);
     height: 34px;
