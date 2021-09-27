@@ -1,9 +1,12 @@
 /*//META{"name": "Alpha's Theme / Dev", "description": "Версия для github. Нет авто-обновлений.", "author": "AlphaS", "version": "2+"}*//**/
 
 :root {
+    --done-width: calc(var(--base-width) + var(--rsiz-width))
+}
+:root {
     --slick: cubic-bezier(.1,.6,.01,1); /* Animation */
     --base-width: 240px; /* Base sidebars width */
-    --rsiz-width: 60px; /* Resize + Base = width */
+    --rsiz-width: 40px; /* Resize + Base = width */
     --resize: 1; /* Resize lists on hover? 1 = enable; 0 = disable */
 }
 
@@ -235,7 +238,7 @@ header > .banner-2QYc2d:not(:hover) {
     transition: margin-left 0.3s var(--slick), transform 0.1s var(--slick);
 }
 .container-3baos1:hover>.nameTag-3uD-yy {
-    margin-left: calc(calc(16px + var(--rsiz-width) / 10) * var(--resize));
+    margin-left: calc(calc(16px + calc(var(--done-width) - 240px) / 10 ) * var(--resize));
     transform: scale(calc(1 + 0.2 * var(--resize)));
 }
 
@@ -281,7 +284,7 @@ header > .banner-2QYc2d:not(:hover) {
     margin-left: 0;
 }
 .container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>.rtcConnectionStatus-2-jIsi>.labelWrapper-Pniq53 {
-    margin-left: calc(calc(12px + var(--rsiz-width) / 10) * var(--resize));
+    margin-left: calc(20px * var(--resize));
     margin-bottom: calc(4px * var(--resize));
     transform: scale(calc(1 + 0.2 * var(--resize)));
 }
@@ -291,7 +294,7 @@ header > .banner-2QYc2d:not(:hover) {
     margin-left: 0;
 }
 .container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>a>div {
-    margin-left: calc(calc(12px + var(--rsiz-width) / 10) * var(--resize));
+    margin-left: calc(20px * var(--resize));
     transform: translateY(calc(-4px * var(--resize))) translateX(calc(18px * var(--resize)));
 }
 
@@ -300,4 +303,61 @@ header > .banner-2QYc2d:not(:hover) {
 }
 .container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.flex-1xMQg5.flex-1O1GKY {
     margin-top: calc(8px * var(--resize));
+}
+
+
+/* Voice Chat */
+.container-1giJp5 {
+    border: none;
+}
+.container-1giJp5>.flex-1xMQg5.flex-1O1GKY {
+    transition: height 0.3s var(--slick), margin-top 0.3s var(--slick);
+    height: 34px;
+}
+.container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY {
+    height: calc(34px + 8px * var(--resize));
+    margin-top: calc(4px * var(--resize));
+}
+
+/* ping */
+.container-1giJp5>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>.rtcConnectionStatus-2-jIsi>.ping-2NgC8E {
+    transition: margin-left 0.1s var(--slick), margin-bottom 0.1s var(--slick), transform 0.1s var(--slick);
+}
+.container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>.rtcConnectionStatus-2-jIsi>.ping-2NgC8E {
+    margin-left: calc(8px * var(--resize));
+    transform: scale(calc(1 + 0.6 * var(--resize)));
+}
+/* label */
+.container-1giJp5>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>.rtcConnectionStatus-2-jIsi>.labelWrapper-Pniq53 {
+    transition: margin-left 0.1s var(--slick), margin-bottom 0.1s var(--slick), transform 0.1s var(--slick);
+    margin-left: 0;
+}
+.container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>.rtcConnectionStatus-2-jIsi>.labelWrapper-Pniq53 {
+    margin-left: calc(20px * var(--resize));
+    margin-bottom: calc(4px * var(--resize));
+    transform: scale(calc(1 + 0.2 * var(--resize)));
+}
+/* channel/guild */
+.container-1giJp5>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>a>div {
+    transition: margin-left 0.1s var(--slick), transform 0.3s var(--slick);
+    margin-left: 0;
+}
+.container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.inner-tyMogq>div>a>div {
+    margin-left: calc(20px * var(--resize));
+    transform: translateY(calc(-4px * var(--resize))) translateX(calc(18px * var(--resize)));
+}
+
+.container-1giJp5>.flex-1xMQg5.flex-1O1GKY>.flex-1xMQg5.flex-1O1GKY {
+    transition: margin-top 0.3s var(--slick);
+}
+.container-1giJp5:hover>.flex-1xMQg5.flex-1O1GKY>.flex-1xMQg5.flex-1O1GKY {
+    margin-top: calc(8px * var(--resize));
+}
+
+/* new layout for corner */
+.panels-j1Uci_>div, .panels-j1Uci_>.wrapper-24pKcD>.container-1giJp5 {
+    border-radius: 12px;
+}
+.panels-j1Uci_>div:not(.wrapper-24pKcD), .panels-j1Uci_>.wrapper-24pKcD>.container-1giJp5 {
+    border-top: 1px solid #333;
 }
