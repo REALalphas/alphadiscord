@@ -1,2 +1,6 @@
-/*//META{"name": "Alpha's Theme", "description": "Лучшая тема в Discord. (Обновляется сама)", "author": "AlphaS", "version": "∞"}*//**/
+/*//META{"name": "Alpha's Theme", "description": "Лучшая тема в Discord. (Обновляется сама)", "author": "AlphaS", "version": "∞"}*/
+/**/
+/* Old UI */
 @import url("https://realalphas.github.io/alphadiscord/main.css");
+/* New UI */
+@import url("https://realalphas.github.io/alphadiscord/main_new.css");

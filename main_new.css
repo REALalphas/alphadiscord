@@ -1,0 +1,111 @@
+/*//META{"name": "Alpha's Theme / Dev", "description": "Версия для github. (Для новой версии) Нет авто-обновлений.", "author": "AlphaS", "version": "3"}*/
+/**/
+
+:root,
+.theme-dark {
+    --bg1: #000;
+    --bg2: #111;
+    --bg3: #191919;
+    --bg4: #222;
+    --light: #444;
+
+    --background-floating: var(--bg2);
+    --background-primary: var(--bg3) !important;
+    --background-secondary: var(--bg3) !important;
+    --background-secondary-alt: var(--bg4) !important;
+    --background-tertiary: var(--bg1) !important;
+
+    --background-modifier-accent: #0000 !important;
+    --background-modifier-hover: #FFF1 !important;
+    --background-modifier-active: #FFF2 !important;
+    --background-modifier-selected: #FFFFFF09 !important;
+
+    --neutral-63: var(--bg4) !important;
+    --neutral-66: var(--bg2) !important;
+    --neutral-69: var(--bg2) !important;
+    --neutral-72: var(--bg2) !important;
+    --neutral-76: var(--bg3) !important;
+
+    --custom-app-top-bar-height: 0px;
+}
+
+.base-2jDfDU {
+    border-radius: 16px 0 0 0;
+}
+
+.bar_c38106 {
+    display: none;
+    content: none;
+}
+
+.visual-refresh .wrapper_ef3116 {
+    margin-bottom: 0 !important;
+}
+
+.visual-refresh .panels_c48ade {
+    left: calc(var(--custom-guild-list-width) + var(--spacing-4));
+    width: calc(100% - var(--custom-guild-list-width) - var(--spacing-8));
+}
+
+.itemCard__7e549 {
+    border-radius: 24px;
+}
+
+.section__00943:only-child {
+    border-radius: 12px;
+}
+
+.bd-sidebar-header>.header-2RyJ0Y,
+.bd-addon-card[id="Alpha's Theme-card"]>.bd-addon-header>.bd-title {
+    color: #99f;
+}
+
+.bd-addon-card[id="Alpha's Theme / Dev-card"]>.bd-addon-header>.bd-title {
+    color: #5757ff;
+}
+
+/* Rainbow border aninmation */
+@keyframes rainbow {
+    0% {
+        box-shadow: inset 0 0 0 1px #ff0000;
+    }
+
+    16.666% {
+        box-shadow: inset 0 0 0 1px #ff8000;
+    }
+
+    33.333% {
+        box-shadow: inset 0 0 0 1px #ffff00;
+    }
+
+    50% {
+        box-shadow: inset 0 0 0 1px #00ff00;
+    }
+
+    66.666% {
+        box-shadow: inset 0 0 0 1px #0000ff;
+    }
+
+    83.333% {
+        box-shadow: inset 0 0 0 1px #ff00ff;
+    }
+
+    100% {
+        box-shadow: inset 0 0 0 2px #5757ff;
+    }
+}
+
+.vc-settings-theme-links {
+    position: relative;
+    color: #5757ff !important;
+}
+
+.inputMaxLength__7aff3::after {
+    position: absolute;
+    inset: 0;
+    content: '';
+    box-shadow: inset 0 0 0 2px #5757ff;
+    animation: rainbow 1s linear forwards;
+    filter: brightness(1.5);
+    border-radius: 12px;
+}
