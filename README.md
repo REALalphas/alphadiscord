@@ -8,6 +8,10 @@ Alpha's Theme for Discord Client
 ```ruby
 https://realalphas.github.io/alphadiscord/main.css
 ```
+or this if you have a new Discord UI
+```ruby
+https://realalphas.github.io/alphadiscord/main_new.css
+```
 
 ## For BetterDiscord users
 1. Download `a_autoupdate.theme.css`
