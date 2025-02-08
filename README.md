@@ -1,7 +1,7 @@
 # Alpha's Theme for Discord
 Alpha's Theme for Discord Client
 
-## For Vencord users
+## **[Vencord](https://vencord.dev/)**
 1. Go to Settings > Vencord > Themes > Online themes
 
 2. And paste this
@@ -13,7 +13,7 @@ or this if you have a new Discord UI
 https://realalphas.github.io/alphadiscord/main_new.css
 ```
 
-## For BetterDiscord users
+## **[BetterDiscord](https://betterdiscord.app/)**
 1. Download `a_autoupdate.theme.css`
 
 2. Go to Settings > BetterDiscord > Themes > Open folder
