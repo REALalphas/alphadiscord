@@ -160,13 +160,13 @@
     color: #5757ff !important;
 }
 
-.inputMaxLength__7aff3::after {
+#vencordthemes-tab>div>div:nth-child(4)>div.children__7bffb>div>.inputMaxLength__7aff3::after {
     position: absolute;
     inset: 0;
     content: '';
     box-shadow: inset 0 0 0 2px #5757ff;
     animation: rainbow 1s linear forwards;
     filter: brightness(1.5);
-    border-radius: 12px;
+    border-radius: 8px;
     pointer-events: none;
 }
