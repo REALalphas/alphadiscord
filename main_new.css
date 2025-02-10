@@ -5,8 +5,8 @@
 .theme-dark {
     --bg1: #000;
     --bg2: #111;
-    --bg3: #191919;
-    --bg4: #222;
+    --bg3: #161616;
+    --bg4: #1f1f1f;
     --light: #444;
 
     --background-floating: var(--bg2);
@@ -20,22 +20,81 @@
     --background-modifier-active: #FFF2 !important;
     --background-modifier-selected: #FFFFFF09 !important;
 
-    --neutral-63: var(--bg4) !important;
-    --neutral-66: var(--bg2) !important;
-    --neutral-69: var(--bg2) !important;
+    /* App bg */
     --neutral-72: var(--bg2) !important;
-    --neutral-76: var(--bg3) !important;
+    /* Sidebar bg */
+    --neutral-76: var(--bg2) !important;
+    /* Chat + Profile overlay */
+    --neutral-69: var(--bg3) !important;
+    /* Action bar for messages */
+    --neutral-60: var(--bg4) !important;
+    /* Voice chat buttons bg */
+    --neutral-73: var(--bg3) !important;
+    /* Sidebar icons bg */
+    --neutral-63: var(--bg3) !important;
+    /* Overlay bg */
+    --neutral-66: var(--bg3) !important;
 
-    --custom-app-top-bar-height: 0px;
+    /* Profile buttons */
+    --button-secondary-background: var(--bg4) !important;
+
+    --custom-app-top-bar-height: 0px !important;
+}
+
+* {
+    transition: background .2s ease, opacity .1s ease;
 }
 
 .base-2jDfDU {
     border-radius: 16px 0 0 0;
 }
 
-.bar_c38106 {
+.base_c48ade {
+    overflow: visible !important;
+}
+
+.title_c38106 {
     display: none;
-    content: none;
+}
+
+.bar_c38106 {
+    position: absolute;
+    right: 0;
+    display: flex !important;
+    width: fit-content;
+    z-index: 9997;
+
+    height: 12px;
+    opacity: 0;
+
+    transition: height .2s .1s ease, opacity .2s .1s ease;
+}
+
+/* Friends Activity bg fix */
+.container__7d20c {
+    background: var(--bg-overlay-4, var(--background-base-lowest));
+}
+
+/* Hide PLAY AGAIN */
+.container__675e5,
+.container__675e5+.sectionDivider__35e86 {
+    display: none;
+}
+
+.trailing_c38106 {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    height: 56px;
+}
+
+.bar_c38106:hover {
+    opacity: 1;
+    height: 56px;
+}
+
+.visual-refresh .sidebar_c48ade:after {
+    display: none;
 }
 
 .visual-refresh .wrapper_ef3116 {
@@ -43,6 +102,7 @@
 }
 
 .visual-refresh .panels_c48ade {
+    bottom: var(--spacing-4);
     left: calc(var(--custom-guild-list-width) + var(--spacing-4));
     width: calc(100% - var(--custom-guild-list-width) - var(--spacing-8));
 }
@@ -108,4 +168,5 @@
     animation: rainbow 1s linear forwards;
     filter: brightness(1.5);
     border-radius: 12px;
+    pointer-events: none;
 }
